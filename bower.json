@@ -1,0 +1,22 @@
+{
+  "name": "outline",
+  "authors": [
+    "(Aubrey Chipman <aubrey.chipman@gmail.com>)"
+  ],
+  "description": "Experience the flow",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pagePiling.js": "pagepiling.js#^1.5.4",
+    "jquery": "^3.2.1"
+  }
+}
