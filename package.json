@@ -7,6 +7,23 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "^0.5.1",
-    "grunt-serve": "^0.1.6"
-  }
+    "grunt-serve": "^0.1.6",
+    "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "browserify": "^14.5.0",
+    "budo": "^10.0.4",
+    "jquery": "^3.2.1",
+    "mermaid": "^7.1.0",
+    "pagepiling.js": "^1.5.4",
+    "watchify": "^3.9.0"
+  },
+  "description": "Experience the flow",
+  "main": "index.js",
+  "repository": "git@github.com:OdysseusLives/scrolling-outline.git",
+  "author": "Aubrey Chipman <aubrey.chipman@gmail.com>",
+  "license": "MIT",
+  "browserslist": [
+    "> 1%"
+  ]
 }

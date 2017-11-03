@@ -1,31 +1,10 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="build/_bower.css" />
-  <link rel="stylesheet" type="text/css" href="css/example.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/pagepiling.js/jquery.pagepiling.css" />
+    <link rel="stylesheet" type="text/css" href="src/css/app.css" />
 
-  <script type="text/javascript" src="build/_bower.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#pagepiling').pagepiling({
-        direction: 'vertical',
-        anchors: ['page1', 'page2', 'page3', 'page4'],
-        menu: '#menu',
-        sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C'],
-        navigation: {
-          'position': 'right',
-          'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
-        },
-        onLeave: function (index, nextIndex, direction) {
-          if (nextIndex == 4) {
-            $('#pp-nav').fadeOut();
-          }
-          if (index == 4) {
-            $('#pp-nav').fadeIn();
-          }
-        }
-      });
-    });
-  </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="src/generated/bundle.js"></script>
 </head>
 <body>
   <ul id="menu">
