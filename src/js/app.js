@@ -1,6 +1,9 @@
 'use strict';
 
 var pagepiling = require('pagepiling.js');
+var mermaid = require('mermaid');
+
+mermaid.initialize({startOnLoad:true});
 
 $(document).ready(function() {
       $('#pagepiling').pagepiling({
