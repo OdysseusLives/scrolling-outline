@@ -1,47 +1,23 @@
 <html>
 <head>
-    <!-- <link rel="stylesheet" type="text/css" href="node_modules/pagepiling.js/jquery.pagepiling.css" /> -->
-    <!-- <link rel="stylesheet" type="text/css" href="src/css/app.css" /> -->
-
-    <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
     <script type="text/javascript" src="src/generated/bundle.js"></script>
 </head>
 <body>
-  <!-- wait for PR https://github.com/knsv/mermaid/pull/577 to get merged in to use pagepiling with mermaid -->
-  <!-- <ul id="menu">
-      <li data-menuanchor="page1" class="active"><a href="#page1">First page</a></li>
-      <li data-menuanchor="page2"><a href="#page2">Second page</a></li>
-      <li data-menuanchor="page3"><a href="#page3">Third page</a></li>
-      <li data-menuanchor="page4"><a href="#page4">Fourth page</a></li>
-  </ul> -->
+  <div class="mermaid">
+    graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[Car]
+  </div>
 
-  <!-- <div id="pagepiling">
-  	<div class="section" id="page1">
-      <h1>Some section</h1>
-    </div>
-
-    <div class="section" id="page2">Some section -->
-
-          <div class="mermaid">
-            graph TD
-            A[Christmas] -->|Get money| B(Go shopping)
-            B --> C{Let me think}
-            C -->|One| D[Laptop]
-            C -->|Two| E[iPhone]
-            C -->|Three| F[Car]
-          </div>
-
-          <div class="mermaid">
-            graph TD;
-              A-->B;
-              A-->C;
-              B-->D;
-              C-->D;
-          </div>
-
-    <!-- </div>
-  	<div class="section" id="page3">Some section</div>
-    <div class="section" id="page4">Some section</div> -->
+  <div class="mermaid">
+    graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
   </div>
 </body>
 </html>
